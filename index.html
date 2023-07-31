@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- ======== PRIMARY META TAGS ======= -->
+  <meta name="title" content="Sign up form">
+  <meta name="description" content="This is a simple sign up form with javascript validations made by Davi P. Oliveira">
+  <title>Sign up form</title>
+  <!-- ======== FONT AWESOME LINK ======= -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- ======== GOOGLE FONT LINK ======== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <!-- ======  CUSTOM CSS ======= -->
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="card__header">
+      <h3>Create Your Account</h3>
+    </div>
+
+    <form id="form" class="form">
+
+      <!-- ======  FIRST NAME INPUT ======= -->
+      <div class="form-control">
+        <label for="firstname">First Name</label>
+        <input type="text" placeholder="John" id="firstname" />
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small> Error message !</small>
+      </div>
+
+      <!-- ======  LAST NAME INPUT ======= -->
+      <div class="form-control">
+        <label for="lastname">Last Name</label>
+        <input type="text" placeholder="Doe" id="lastname" />
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small> Error message !</small>
+      </div>
+
+      <!-- ======  USERNAME INPUT ======= -->
+        <div class="form-control">
+          <label for="username">Username</label>
+          <input type="text" placeholder="example1234" id="username" />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small> Error message !</small>
+        </div>
+
+      <!-- ======  EMAIL INPUT ======= -->
+       <div class="form-control">
+        <label for="email1">Email address</label>
+        <input type="email" placeholder="example1234@email.com" id="email1" />
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small> Error message !</small>
+      </div>
+
+      <!-- ======  EMAIL CONFIRM INPUT ======= -->
+       <div class="form-control">
+        <label for="email2">Confirm email address</label>
+        <input type="email" placeholder="example1234@email.com" id="email2" />
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small> Error message !</small>
+      </div>
+
+      <!-- ======  PASSWORD INPUT ======= -->
+      <div class="form-control">
+        <label for="password">Password</label>
+        <input type="password" placeholder="" id="password" />
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small> Error message !</small>
+      </div>
+
+     <!-- ======  PASSWORD CONFIRM INPUT ======= -->
+      <div class="form-control">
+        <label for="password2">Confirm your password</label>
+        <input type="password" placeholder="" id="password2" />
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small> Error message !</small>
+      </div>
+
+      <!-- ====== SUBMIT BUTTON ======= -->
+      <button>SUBMIT</button>
+    </form>
+  </div>
+  
+
+  <!-- JS FILE -->
+  <script src="/script.js"></script>
+  
+</body>
+</html>
